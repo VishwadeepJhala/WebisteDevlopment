@@ -1,0 +1,351 @@
+<html>
+<head>
+<title>Business Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!------Navigation Bar----->
+<section id = "Nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src = "image/logo.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">OUR TEAM</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#price">PRICE PLANS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<!----------Slider---------->
+<div id = "Slider">
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/banner1.jpg" class="d-block img-fluid">
+	  <div class="carousel-caption">
+		<h5>Business Accelerator</h5>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/banner2.jpg" class="d-block img-fluid">
+	  <div class="carousel-caption">
+		<h5>Web Development To Grow Business</h5>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/banner3.png" class="d-block img-fluid">
+	  <div class="carousel-caption">
+		<h5>Artificial Intellegence & Business Intellegence</h5>
+	  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<!-----------ABOUT----------->
+<section id="about">
+	<div class="container">
+		<div class="Row">
+			<!--------In bootstrap there is 12 col so we can divide 6-6 so we get 2 parts------>
+			<div class="col-md-6">
+			<h2>About Us</h2>
+				<div class = "about-content">
+				Subscribe for travel vlogs from Flying The Nest... 
+				Hi, we are Stephen & Jess, one of Australia's most subscribed travel vloggers on YouTube.  We have been documenting our life ever since leaving home and travelling full time around the globe. We want to inspire others to venture out, explore, take risks and go on your own adventure! We have a passion for travel & videography and create "travel series" sharing everything from where to stay, what to see and where to eat when travelling the world.We run a travel blog over at www.flyingthenest.tv if you want to see more from Flying The Nest.PO BOX 3527,JOONDALUP WA 6027
+				</div>
+				<button type="button" class="btn btn-primary">Read more>></button>
+			</div>
+			<div class="col-md-6 skills-bar">
+			<p>Java Script</p>
+			<div class="progress">
+				<div class="progress-bar" style="width : 80%;">80%</div>
+			</div>
+			<p>Word Press</p>
+			<div class="progress">
+				<div class="progress-bar" style="width : 70%;">70%</div>
+			</div>
+			<p>Android Development</p>
+			<div class="progress">
+				<div class="progress-bar" style="width : 90%;">90%</div>
+			</div>
+			<p>Python</p>
+			<div class="progress">
+				<div class="progress-bar" style="width : 65%;">65%</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!------------------Services---------------->
+<section id = "services">
+	<div class = "container">
+	<h1>Our Services</h1>
+		<div class="row services">
+			<div class="col-md-3 text-center">
+				<div class="icon">
+				<i class="fa fa-desktop"></i>
+				</div>
+				<h3>Web <br> Development</h3>
+				<p>We have been documenting our life ever since leaving home and travelling full time around the globe.</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+				<i class="fa fa-tablet"></i>
+				</div>
+				<h3>Android Development</h3>
+				<p>We have been documenting our life ever since leaving home and travelling full time around the globe.</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+				<i class="fa fa-gamepad"></i>
+				</div>
+				<h3>Graphic <br> Designing</h3>
+				<p>We have been documenting our life ever since leaving home and travelling full time around the globe.</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+				<i class="fa fa-cloud"></i>
+				</div>
+				<h3>Artificial Intellegence</h3>
+				<p>We have been documenting our life ever since leaving home and travelling full time around the globe.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-----------------Team Members------------------>
+<section id="team">
+	<div class="container">
+		<h1>Our Team</h1>
+		<div class ="row">
+			<div class="col-md-4 profile-pic text-center">
+			<div class="img-box">
+				<img src="image/team2.png" class="img-responsive">
+					<ul>
+					<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+					<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+					</ul>
+			</div>
+			<h2>XYZ1</h2>
+			<h3>Designation1</h3>
+			<p>since leaving home and travelling full time around</p>
+			</div>
+			<div class="col-md-4 profile-pic text-center">
+			<div class="img-box">
+				<img src="image/team2.png" class="img-responsive">
+					<ul>
+					<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+					<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+					</ul>
+			</div>
+			<h2>XYZ2</h2>
+			<h3>Designation2</h3>
+			<p>since leaving home and travelling full time around</p>
+			</div>
+			<div class="col-md-4 profile-pic text-center">
+			<div class="img-box">
+				<img src="image/team2.png" class="img-responsive">
+					<ul>
+					<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+					<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+					<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+					</ul>
+			</div>
+			<h2>XYZ3</h2>
+			<h3>Designation3</h3>
+			<p>since leaving home and travelling full time around</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-------------Promo------------>
+<section id="promo">
+	<div class="container">
+	<p>Free domain and hosting</p>
+	<a href="#contact" class="btn btn-primary">Contact Us</a>
+	</div>
+</section>
+<!-----------Price Plans--------->
+<section id="price">
+	<div class="container">
+		<h1>Price Plans</h1>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="single-price">
+					<div class="price-head">
+						<h2>Free</h2>
+						<p>$0/<span>month</span></p>
+					</div>
+					<div class="price-content">
+						<ul>
+						<li><i class="fa fa-check"></i>&nbsp 5gb Space</li>
+						<li><i class="fa fa-check"></i>&nbsp 10gb bandwith</li>
+						<li><i class="fa fa-times"></i>&nbsp 15 email account</li>
+						<li><i class="fa fa-times"></i>&nbsp 25mpbs speed</li>
+						<li><i class="fa fa-times"></i>&nbsp Unlimited Domain</li>
+						<li><i class="fa fa-times"></i>&nbsp Unlimited Services</li>
+						</ul>
+					</div>
+					<div class="price-button">
+						<a class="buy-btn" href"#">Join</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="single-price">
+					<div class="price-head">
+						<h2>Silver</h2>
+						<p>$75/<span>month</span></p>
+					</div>
+					<div class="price-content">
+						<ul>
+						<li><i class="fa fa-check"></i>&nbsp 5gb Space</li>
+						<li><i class="fa fa-check"></i>&nbsp 10gb bandwith</li>
+						<li><i class="fa fa-check"></i>&nbsp 15 email account</li>
+						<li><i class="fa fa-check"></i>&nbsp 25mpbs speed</li>
+						<li><i class="fa fa-times"></i>&nbsp Unlimited Domain</li>
+						<li><i class="fa fa-times"></i>&nbsp Unlimited Services</li>
+						</ul>
+					</div>
+					<div class="price-button">
+						<a class="buy-btn" href"#">Join</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="single-price">
+					<div class="price-head">
+						<h2>Gold</h2>
+						<p>$110/<span>month</span></p>
+					</div>
+					<div class="price-content">
+						<ul>
+						<li><i class="fa fa-check"></i>&nbsp 5gb Space</li>
+						<li><i class="fa fa-check"></i>&nbsp 10gb bandwith</li>
+						<li><i class="fa fa-check"></i>&nbsp 15 email account</li>
+						<li><i class="fa fa-check"></i>&nbsp 25mpbs speed</li>
+						<li><i class="fa fa-check"></i>&nbsp Unlimited Domain</li>
+						<li><i class="fa fa-check"></i>&nbsp Unlimited Services</li>
+						</ul>
+					</div>
+					<div class="price-button">
+						<a class="buy-btn" href"#">Join</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-------------Testimonials------------>
+<section id="testimonials">
+	<div class="container">
+		<h1>Testimonials</h1>
+		<p class="Text-Center">Subscribe for more technical stuffs and learning.</p>
+		<div class="row">
+			<div class="col-md-6 text-center">
+				<div class="Profile">
+					<img src="image/team2.png" class="user">
+					<blockquote>In promotion and advertising, a testimonial or show consists of a person's written or spoken statement extolling the virtue of a product. The term "testimonial" most commonly applies to the sales-pitches attributed to ordinary citizens, whereas the word "endorsement" usually applies to pitches by celebrities. Testimonials can be part of communal marketing. Sometimes, the cartoon character can be a testimonial in a commercial.</blockquote>
+					<h3>User_name_1<span>&nbsp;Lead Analyst at XYZZ</span></h3>
+				</div>
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="Profile">
+					<img src="image/team2.png" class="user">
+					<blockquote>In promotion and advertising, a testimonial or show consists of a person's written or spoken statement extolling the virtue of a product. The term "testimonial" most commonly applies to the sales-pitches attributed to ordinary citizens, whereas the word "endorsement" usually applies to pitches by celebrities. Testimonials can be part of communal marketing. Sometimes, the cartoon character can be a testimonial in a commercial.</blockquote>
+					<h3>User_name_2<span>&nbsp;Analyst at ABCD</span></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---------------Get In Touch--------------->
+<section id="contact">
+	<div class="containers">
+		<h1>Get In Touch</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="contact-form">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Enter your name">
+					</div>
+					<div class="form-group">
+						<input type="number" class="form-control" placeholder="Enter your number">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Enter your email">
+					</div>
+					<div class="form-group">
+						<input type="datetime" class="form-control" placeholder="Enter your DOB">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" row="10" placeholder="Enter your message"></textarea>
+					</div>
+						<button type="Submit" class="btn btn-primary">SEND MESSAGE</button>
+				</form>
+			</div>
+			<div class="col-md-6 contact-info">
+				<div class="follow"><i class="fa fa-map-pin"></i>&nbsp &nbsp<b>Address:</b>&nbspIBM private limited, Pune , Maharastra , India.
+				<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121048.19628232726!2d73.76391207895672!3d18.539919204429022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c125eeac05af%3A0x46a71deb5fdc86c7!2sIBM%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1593609637297!5m2!1sen!2sin" width="200" height="200" frameborder="5px" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+				</div>
+				<div class="follow"><i class="fa fa-phone"></i>&nbsp &nbsp<b>Phone Number:</b>&nbsp 9999999999
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!----------------footer-------------->
+<section id="footer">
+	<div class="Container text-center">
+	<p>Made with <i class="fa fa-heart-o"></i> by tony</p>
+	</div>
+</section>
+<!--------------footer end------------->
+<script src="js/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
